@@ -21,7 +21,7 @@ repositories {
     mavenCentral()
     maven {
         name = "payPayArtifactory"
-        url = uri("https://artifactory.platform.paypay.ne.jp/artifactory/libs-release/")
+        url = uri("https://artifactory.platform.paypay.ne.jp/artifactory/libs-release-local/")
         credentials(PasswordCredentials::class)
     }
 }
