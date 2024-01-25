@@ -27,5 +27,5 @@ repositories {
 }
 
 dependencies {
-    gatling("jp.ne.paypay:merchant-lib:1.0.0")
+    gatling("jp.ne.paypay:merchant-lib:1.0.1")
 }
