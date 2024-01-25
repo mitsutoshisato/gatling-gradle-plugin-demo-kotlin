@@ -19,4 +19,13 @@ gatling {
 
 repositories {
     mavenCentral()
+    maven {
+        name = "payPayArtifactory"
+        url = uri("https://artifactory.platform.paypay.ne.jp/artifactory/libs-release/")
+        credentials(PasswordCredentials::class)
+    }
+}
+
+dependencies {
+    gatling("jp.ne.paypay:fund-client-library:1.16.0")
 }
